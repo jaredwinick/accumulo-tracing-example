@@ -41,6 +41,10 @@ import org.apache.zookeeper.KeeperException;
 
 import com.beust.jcommander.Parameter;
 
+/**
+ * A simple example showing how to use the distributed tracing API in client code
+ *
+ */
 public class TracingExample {
 	
 	private static final String DEFAULT_TABLE_NAME = "test";
